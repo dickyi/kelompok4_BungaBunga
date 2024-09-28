@@ -101,6 +101,21 @@ public class Main {
         System.out.println("Iklim             : " + ip.getIklim());
         System.out.println("Tanah             : " + ip.getTanah());
         System.out.println("Hewan Penyerbuk   : " + ip.getHewan_penyerbuk());
+        
+        Bunga_Sakura bs = new Bunga_Sakura();
+
+        bs.setnama_ilmiah("Prunus Serrulata");
+        bs.setWarna("Merah Muda)");
+        bs.setIklim("Sedang");
+        bs.setTanah("Tanah yang berdrainase baik dan subur");
+        bs.setHewan_penyerbuk("Lebah dan serangga kecil lainnya");
+
+        System.out.println("\n\t\t\tBunga Sakura");
+        System.out.println("Nama Ilmiah       : " + bs.getnama_ilmiah());
+        System.out.println("Warna             : " + bs.getWarna());
+        System.out.println("Iklim             : " + bs.getIklim());
+        System.out.println("Tanah             : " + bs.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + bs.getHewan_penyerbuk());
     }
 
 }
