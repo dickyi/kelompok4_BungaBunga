@@ -116,6 +116,21 @@ public class Main {
         System.out.println("Iklim             : " + bs.getIklim());
         System.out.println("Tanah             : " + bs.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bs.getHewan_penyerbuk());
+        
+        Bunga_Melati bw = new Bunga_Melati();
+
+        bw.setnama_ilmiah("Jasminum sambac");
+        bw.setWarna("Putih");
+        bw.setIklim("Tropis");
+        bw.setTanah("Tanah yang berdrainase baik dan subur");
+        bw.setHewan_penyerbuk("Lebah dan Kupu-kupu");
+
+        System.out.println("\n\t\t\tBunga Melati");
+        System.out.println("Nama Ilmiah       : " + bw.getnama_ilmiah());
+        System.out.println("Warna             : " + bw.getWarna());
+        System.out.println("Iklim             : " + bw.getIklim());
+        System.out.println("Tanah             : " + bw.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + bw.getHewan_penyerbuk());
     }
 
 }
