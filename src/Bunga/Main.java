@@ -15,7 +15,7 @@ public class Main {
         Bunga_Kamboja bunga = new Bunga_Kamboja();
 
         bunga.setnama_ilmiah("Plumeria rubra");
-        bunga.setWarna("Merah");
+        bunga.setWarna("Putih dengan pusat Kuning");
         bunga.setIklim("Tropis");
         bunga.setTanah("Berdrainase baik");
         bunga.setHewan_penyerbuk("Lebah");
