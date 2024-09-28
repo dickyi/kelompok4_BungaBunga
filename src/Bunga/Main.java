@@ -41,6 +41,21 @@ public class Main {
         System.out.println("Iklim             : " + fr.getIklim());
         System.out.println("Tanah             : " + fr.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fr.getHewan_penyerbuk());
+        
+        Bunga_Tulip bt = new Bunga_Tulip();
+
+        bt.setnama_ilmiah("Tulipa");
+        bt.setWarna("Beraam (Merah, Kuning, Putih)");
+        bt.setIklim("sedang");
+        bt.setTanah("Berdrainase baik dan subur");
+        bt.setHewan_penyerbuk("Lebah");
+
+        System.out.println("\n\t\t\tBunga Tulip");
+        System.out.println("Nama Ilmiah       : " + bt.getnama_ilmiah());
+        System.out.println("Warna             : " + bt.getWarna());
+        System.out.println("Iklim             : " + bt.getIklim());
+        System.out.println("Tanah             : " + bt.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + bt.getHewan_penyerbuk());
     }
 
 }
