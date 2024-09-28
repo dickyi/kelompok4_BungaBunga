@@ -71,6 +71,21 @@ public class Main {
         System.out.println("Iklim             : " + fm.getIklim());
         System.out.println("Tanah             : " + fm.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fm.getHewan_penyerbuk());
+        
+        Bunga_Mawar bm = new Bunga_Mawar();
+
+        bm.setnama_ilmiah("Rosa");
+        bm.setWarna("Beragam (Merah, Kuning, Putih)");
+        bm.setIklim("Sedang hingga Subtropis");
+        bm.setTanah("Tanah yang berdrainase baik dan subur");
+        bm.setHewan_penyerbuk("Lebah dan Kupu-kupu");
+
+        System.out.println("\n\t\t\tBunga Mawar");
+        System.out.println("Nama Ilmiah       : " + bm.getnama_ilmiah());
+        System.out.println("Warna             : " + bm.getWarna());
+        System.out.println("Iklim             : " + bm.getIklim());
+        System.out.println("Tanah             : " + bm.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + bm.getHewan_penyerbuk());
     }
 
 }
