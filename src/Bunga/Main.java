@@ -86,6 +86,21 @@ public class Main {
         System.out.println("Iklim             : " + bm.getIklim());
         System.out.println("Tanah             : " + bm.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bm.getHewan_penyerbuk());
+        
+        Bunga_Kemuning ip = new Bunga_Kemuning();
+
+        ip.setnama_ilmiah("Murraya paniculata");
+        ip.setWarna("Beragam (Putih)");
+        ip.setIklim("Tropis");
+        ip.setTanah("Tanah yang berdrainase baik dan subur");
+        ip.setHewan_penyerbuk("Lebah");
+
+        System.out.println("\n\t\t\tBunga Kemuning");
+        System.out.println("Nama Ilmiah       : " + ip.getnama_ilmiah());
+        System.out.println("Warna             : " + ip.getWarna());
+        System.out.println("Iklim             : " + ip.getIklim());
+        System.out.println("Tanah             : " + ip.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + ip.getHewan_penyerbuk());
     }
 
 }
