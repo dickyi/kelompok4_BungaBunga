@@ -206,19 +206,19 @@ public class EdelweisFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        Bunga_Edelweis bunga = new Bunga_Edelweis();
+        Bunga_Edelweis fr = new Bunga_Edelweis();
 
-        bunga.setnama_ilmiah(jnama.getText());
-        bunga.setWarna(jwarna.getText());
-        bunga.setIklim(jiklim.getText());
-        bunga.setTanah(jtanah.getText());
-        bunga.setHewan_penyerbuk(jhewan.getText());
+        fr.setnama_ilmiah(jnama.getText());
+        fr.setWarna(jwarna.getText());
+        fr.setIklim(jiklim.getText());
+        fr.setTanah(jtanah.getText());
+        fr.setHewan_penyerbuk(jhewan.getText());
 
-        vnama.setText("Nama Ilmiah   : " + bunga.getnama_ilmiah());
-        vwarna.setText("Warna        : " + bunga.getWarna());
-        viklim.setText("Iklim        : " + bunga.getIklim());
-        vtanah.setText("Tanah        : " + bunga.getTanah());
-        vhewan.setText("Hewan        : " + bunga.getHewan_penyerbuk());
+        vnama.setText("Nama Ilmiah   : " + fr.getnama_ilmiah());
+        vwarna.setText("Warna        : " + fr.getWarna());
+        viklim.setText("Iklim        : " + fr.getIklim());
+        vtanah.setText("Tanah        : " + fr.getTanah());
+        vhewan.setText("Hewan        : " + fr.getHewan_penyerbuk());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
