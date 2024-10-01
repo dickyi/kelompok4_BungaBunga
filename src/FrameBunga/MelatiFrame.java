@@ -205,19 +205,19 @@ public class MelatiFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        Bunga_Melati bunga = new Bunga_Melati();
+        Bunga_Melati bw = new Bunga_Melati();
 
-        bunga.setnama_ilmiah(jnama.getText());
-        bunga.setWarna(jwarna.getText());
-        bunga.setIklim(jiklim.getText());
-        bunga.setTanah(jtanah.getText());
-        bunga.setHewan_penyerbuk(jhewan.getText());
+        bw.setnama_ilmiah(jnama.getText());
+        bw.setWarna(jwarna.getText());
+       bw.setIklim(jiklim.getText());
+       bw.setTanah(jtanah.getText());
+        bw.setHewan_penyerbuk(jhewan.getText());
 
-        vnama.setText("Nama Ilmiah   : " + bunga.getnama_ilmiah());
-        vwarna.setText("Warna        : " + bunga.getWarna());
-        viklim.setText("Iklim        : " + bunga.getIklim());
-        vtanah.setText("Tanah        : " + bunga.getTanah());
-        vhewan.setText("Hewan        : " + bunga.getHewan_penyerbuk());
+        vnama.setText("Nama Ilmiah   : " + bw.getnama_ilmiah());
+        vwarna.setText("Warna        : " + bw.getWarna());
+        viklim.setText("Iklim        : " + bw.getIklim());
+        vtanah.setText("Tanah        : " + bw.getTanah());
+        vhewan.setText("Hewan        : " + bw.getHewan_penyerbuk());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
