@@ -218,9 +218,9 @@ public class SakuraFrame extends javax.swing.JFrame {
    
         vnama.setText("Nama Ilmiah   : " + bs.getnama_ilmiah());
         vwarna.setText("Warna        : " + bs.getWarna());
-        viklim.setText("Iklim        : " + bs.getIklim());
+        viklim.setText("Iklim        : " + bs.getIklim()); 
         vtanah.setText("Tanah        : " + bs.getTanah());
-        vhewan.setText("Hewan        : " + bs.getHewan_penyerbuk());
+        vhewan.setText("Hewan        : " + bs\q2      .getHewan_penyerbuk());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
