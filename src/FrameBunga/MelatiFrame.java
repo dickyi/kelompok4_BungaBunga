@@ -70,7 +70,7 @@ public class MelatiFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Bunga Kamboja");
+        jLabel1.setText("Bunga Melati");
 
         jLabel2.setText("Nama Ilmiah");
 
