@@ -4,18 +4,18 @@
  */
 package FrameBunga;
 
-import Bunga.Bunga_Kamboja;
+import Bunga.Bunga_Edelweis;
 
 /**
  *
  * @author Irawa
  */
-public class KambojaFrame extends javax.swing.JFrame {
+public class EdelweisFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form KambojaFrame
      */
-    public KambojaFrame() {
+    public EdelweisFrame() {
         initComponents();
     }
 
@@ -70,7 +70,7 @@ public class KambojaFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Bunga Kamboja");
+        jLabel1.setText("Bunga Edelweis");
 
         jLabel2.setText("Nama Ilmiah");
 
@@ -206,20 +206,19 @@ public class KambojaFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        Bunga_Kamboja bunga = new Bunga_Kamboja();
+        Bunga_Edelweis fr = new Bunga_Edelweis();
 
-        bunga.setnama_ilmiah(jnama.getText());
-        bunga.setWarna(jwarna.getText());
-        bunga.setIklim(jiklim.getText());
-        bunga.setTanah(jtanah.getText());
-        bunga.setHewan_penyerbuk(jhewan.getText());
-        
-   
-        vnama.setText("Nama Ilmiah   : " + bunga.getnama_ilmiah());
-        vwarna.setText("Warna        : " + bunga.getWarna());
-        viklim.setText("Iklim        : " + bunga.getIklim());
-        vtanah.setText("Tanah        : " + bunga.getTanah());
-        vhewan.setText("Hewan        : " + bunga.getHewan_penyerbuk());
+        fr.setnama_ilmiah(jnama.getText());
+        fr.setWarna(jwarna.getText());
+        fr.setIklim(jiklim.getText());
+        fr.setTanah(jtanah.getText());
+        fr.setHewan_penyerbuk(jhewan.getText());
+
+        vnama.setText("Nama Ilmiah   : " + fr.getnama_ilmiah());
+        vwarna.setText("Warna        : " + fr.getWarna());
+        viklim.setText("Iklim        : " + fr.getIklim());
+        vtanah.setText("Tanah        : " + fr.getTanah());
+        vhewan.setText("Hewan        : " + fr.getHewan_penyerbuk());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
@@ -248,20 +247,21 @@ public class KambojaFrame extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(KambojaFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EdelweisFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(KambojaFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EdelweisFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(KambojaFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EdelweisFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(KambojaFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EdelweisFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new KambojaFrame().setVisible(true);
+                new EdelweisFrame().setVisible(true);
             }
         });
     }
