@@ -206,7 +206,7 @@ public class MawarFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        Bunga_Mawar bm = new Bunga_Mawar();
+       Bunga_Mawar bm = new Bunga_Mawar();
 
         bm.setnama_ilmiah(jnama.getText());
         bm.setWarna(jwarna.getText());
