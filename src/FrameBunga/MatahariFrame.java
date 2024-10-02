@@ -4,12 +4,12 @@
  */
 package FrameBunga;
 
-import Bunga.Bunga_Kamboja;
+
 import Bunga.Bunga_Matahari;
 
 /**
  *
- * @author Irawa
+ * @author Abdul
  */
 public class MatahariFrame extends javax.swing.JFrame {
 
