@@ -4,7 +4,6 @@
  */
 package FrameBunga;
 
-import Bunga.Bunga_Kamboja;
 import Bunga.Bunga_Mawar;
 
 /**
