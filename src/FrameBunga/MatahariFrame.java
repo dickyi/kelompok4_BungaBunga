@@ -206,19 +206,19 @@ public class MatahariFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        Bunga_Matahari bunga = new Bunga_Matahari();
+        Bunga_Matahari bm = new Bunga_Matahari();
 
-        bunga.setnama_ilmiah(jnama.getText());
-        bunga.setWarna(jwarna.getText());
-        bunga.setIklim(jiklim.getText());
-        bunga.setTanah(jtanah.getText());
-        bunga.setHewan_penyerbuk(jhewan.getText());
+        bm.setnama_ilmiah(jnama.getText());
+        bm.setWarna(jwarna.getText());
+        bm.setIklim(jiklim.getText());
+        bm.setTanah(jtanah.getText());
+        bm.setHewan_penyerbuk(jhewan.getText());
 
-        vnama.setText("Nama Ilmiah   : " + bunga.getnama_ilmiah());
-        vwarna.setText("Warna        : " + bunga.getWarna());
-        viklim.setText("Iklim        : " + bunga.getIklim());
-        vtanah.setText("Tanah        : " + bunga.getTanah());
-        vhewan.setText("Hewan        : " + bunga.getHewan_penyerbuk());
+        vnama.setText("Nama Ilmiah   : " + bm.getnama_ilmiah());
+        vwarna.setText("Warna        : " + bm.getWarna());
+        viklim.setText("Iklim        : " + bm.getIklim());
+        vtanah.setText("Tanah        : " + bm.getTanah());
+        vhewan.setText("Hewan        : " + bm.getHewan_penyerbuk());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
