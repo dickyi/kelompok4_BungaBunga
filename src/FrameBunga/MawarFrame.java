@@ -4,19 +4,20 @@
  */
 package FrameBunga;
 
-import Bunga.Bunga_Melati;
+import Bunga.Bunga_Mawar;
 
 /**
  *
  * @author Irawa
  */
-public class MelatiFrame extends javax.swing.JFrame {
+public class MawarFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form KambojaFrame
      */
-    public MelatiFrame() {
+    public MawarFrame() {
         initComponents();
+        reset();
     }
 
     void reset() {
@@ -70,7 +71,7 @@ public class MelatiFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Bunga Melati");
+        jLabel1.setText("Bunga Mawar");
 
         jLabel2.setText("Nama Ilmiah");
 
@@ -113,7 +114,7 @@ public class MelatiFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 564, Short.MAX_VALUE)
+                        .addGap(0, 565, Short.MAX_VALUE)
                         .addComponent(jButton1)
                         .addGap(38, 38, 38))
                     .addGroup(layout.createSequentialGroup()
@@ -153,7 +154,7 @@ public class MelatiFrame extends javax.swing.JFrame {
                                     .addComponent(vtanah, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(135, 135, 135))))))
             .addGroup(layout.createSequentialGroup()
-                .addGap(286, 286, 286)
+                .addGap(271, 271, 271)
                 .addComponent(jLabel1)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
@@ -205,19 +206,20 @@ public class MelatiFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        Bunga_Melati bw = new Bunga_Melati();
+       Bunga_Mawar bm = new Bunga_Mawar();
 
-        bw.setnama_ilmiah(jnama.getText());
-        bw.setWarna(jwarna.getText());
-        bw.setIklim(jiklim.getText());
-        bw.setTanah(jtanah.getText());
-        bw.setHewan_penyerbuk(jhewan.getText());
-
-        vnama.setText("Nama Ilmiah   : " + bw.getnama_ilmiah());
-        vwarna.setText("Warna        : " + bw.getWarna());
-        viklim.setText("Iklim        : " + bw.getIklim());
-        vtanah.setText("Tanah        : " + bw.getTanah());
-        vhewan.setText("Hewan        : " + bw.getHewan_penyerbuk());
+        bm.setnama_ilmiah(jnama.getText());
+        bm.setWarna(jwarna.getText());
+        bm.setIklim(jiklim.getText());
+        bm.setTanah(jtanah.getText());
+        bm.setHewan_penyerbuk(jhewan.getText());
+        
+   
+        vnama.setText("Nama Ilmiah   : " + bm.getnama_ilmiah());
+        vwarna.setText("Warna        : " + bm.getWarna());
+        viklim.setText("Iklim        : " + bm.getIklim());
+        vtanah.setText("Tanah        : " + bm.getTanah());
+        vhewan.setText("Hewan        : " + bm.getHewan_penyerbuk());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
@@ -246,13 +248,13 @@ public class MelatiFrame extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MelatiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MawarFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MelatiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MawarFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MelatiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MawarFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MelatiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MawarFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -260,7 +262,7 @@ public class MelatiFrame extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MelatiFrame().setVisible(true);
+                new MawarFrame().setVisible(true);
             }
         });
     }

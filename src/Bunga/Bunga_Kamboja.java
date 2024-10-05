@@ -9,16 +9,19 @@ package Bunga;
  * @author Irawa
  */
 public class Bunga_Kamboja {
+
     String nama_ilmiah, warna, iklim, tanah, hewan_penyerbuk;
-    
-    public void setnama_ilmiah(String namailmiah){
+
+    public void setnama_ilmiah(String namailmiah) {
+        //  nama_ilmiah = "plumeria";
         this.nama_ilmiah = namailmiah;
     }
-    
-      public String getnama_ilmiah(){
-        return  nama_ilmiah;
+
+    public String getnama_ilmiah() {
+        return nama_ilmiah;
     }
-         public void setWarna(String warna) {
+
+    public void setWarna(String warna) {
         this.warna = warna;
     }
 
@@ -26,7 +29,6 @@ public class Bunga_Kamboja {
         return warna;
     }
 
-   
     public void setIklim(String iklim) {
         this.iklim = iklim;
     }
@@ -35,7 +37,6 @@ public class Bunga_Kamboja {
         return iklim;
     }
 
-    
     public void setTanah(String tanah) {
         this.tanah = tanah;
     }
