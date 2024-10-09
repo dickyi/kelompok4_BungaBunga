@@ -4,10 +4,7 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
+
 public class Main {
 
     public static void main(String[] args) {
@@ -39,6 +36,7 @@ public class Main {
         fr.setIklim("Sejuk hingga dingin");
         fr.setTanah("Berbatu");
         fr.setHewan_penyerbuk("Lebah dan kupu-kupu");
+        fr.setKetahanan("Bisa bertahan lama tanpa layu, meski sudah dipetik.");
 
         System.out.println("\n\t\t\tBunga Edelweis");
         System.out.println("Nama Ilmiah       : " + fr.getnama_ilmiah());
@@ -46,6 +44,7 @@ public class Main {
         System.out.println("Iklim             : " + fr.getIklim());
         System.out.println("Tanah             : " + fr.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fr.getHewan_penyerbuk());
+        System.out.println("Ketahanan         : " + fr.getKetahanan());
         
         Bunga_Tulip bt = new Bunga_Tulip();
 

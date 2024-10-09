@@ -8,9 +8,17 @@ package Bunga;
  *
  * @author Irawa
  */
-public class Bunga_Edelweis {
+public class Bunga_Edelweis extends Bunga{
     
-    //"ketahanan
+    String ketahanan;
+
+    public String getKetahanan() {
+        return ketahanan;
+    }
+
+    public void setKetahanan(String ketahanan) {
+        this.ketahanan = ketahanan;
+    }
   
 
 }
