@@ -4,10 +4,7 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
+
 public class Bunga_Edelweis extends Bunga{
     
     String ketahanan;

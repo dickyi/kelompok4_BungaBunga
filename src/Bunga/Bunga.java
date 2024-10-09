@@ -4,10 +4,7 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
+
 public class Bunga {
     String nama_ilmiah, warna, iklim, tanah, hewan_penyerbuk;
 //simbolisme;
