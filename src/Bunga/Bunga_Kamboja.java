@@ -8,49 +8,18 @@ package Bunga;
  *
  * @author Irawa
  */
-public class Bunga_Kamboja {
+public class Bunga_Kamboja extends Bunga {
 
-    String nama_ilmiah, warna, iklim, tanah, hewan_penyerbuk;
+    String simbolisme;
 
-    public void setnama_ilmiah(String namailmiah) {
-        //  nama_ilmiah = "plumeria";
-        this.nama_ilmiah = namailmiah;
+    public String getSimbolisme() {
+        return simbolisme;
     }
 
-    public String getnama_ilmiah() {
-        return nama_ilmiah;
+    public void setSimbolisme(String simbolisme) {
+        this.simbolisme = simbolisme;
     }
-
-    public void setWarna(String warna) {
-        this.warna = warna;
+     public void warna(String warna) {
+        super.warna = warna;
     }
-
-    public String getWarna() {
-        return warna;
-    }
-
-    public void setIklim(String iklim) {
-        this.iklim = iklim;
-    }
-
-    public String getIklim() {
-        return iklim;
-    }
-
-    public void setTanah(String tanah) {
-        this.tanah = tanah;
-    }
-
-    public String getTanah() {
-        return tanah;
-    }
-
-    public void setHewan_penyerbuk(String hewanPenyerbuk) {
-        this.hewan_penyerbuk = hewanPenyerbuk;
-    }
-
-    public String getHewan_penyerbuk() {
-        return hewan_penyerbuk;
-    }
-
 }

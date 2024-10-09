@@ -19,6 +19,9 @@ public class Main {
         bunga.setIklim("Tropis");
         bunga.setTanah("Berdrainase baik");
         bunga.setHewan_penyerbuk("Lebah");
+        bunga.setSimbolisme("Pertahanan");
+        
+        bunga.setWarna("jambu");
 
         System.out.println("\t\t\tBunga Kamboja");
         System.out.println("Nama Ilmiah       : " + bunga.getnama_ilmiah());
@@ -26,6 +29,8 @@ public class Main {
         System.out.println("Iklim             : " + bunga.getIklim());
         System.out.println("Tanah             : " + bunga.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bunga.getHewan_penyerbuk());
+        System.out.println("Simbolisme        : " + bunga.getSimbolisme());
+     
         
         Bunga_Edelweis fr = new Bunga_Edelweis();
 

@@ -220,6 +220,7 @@ public class KambojaFrame extends javax.swing.JFrame {
         viklim.setText("Iklim        : " + bunga.getIklim());
         vtanah.setText("Tanah        : " + bunga.getTanah());
         vhewan.setText("Hewan        : " + bunga.getHewan_penyerbuk());
+        
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
