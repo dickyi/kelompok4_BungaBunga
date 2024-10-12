@@ -83,6 +83,7 @@ public class Main {
         bm.setIklim("Sedang hingga Subtropis");
         bm.setTanah("Tanah yang berdrainase baik dan subur");
         bm.setHewan_penyerbuk("Lebah dan Kupu-kupu");
+        bm.setVarietas("Mawar Tee Hybrid yang dikenal dengan bunga besar dan warna-warni cerahnya");
 
         System.out.println("\n\t\t\tBunga Mawar");
         System.out.println("Nama Ilmiah       : " + bm.getnama_ilmiah());
@@ -90,6 +91,7 @@ public class Main {
         System.out.println("Iklim             : " + bm.getIklim());
         System.out.println("Tanah             : " + bm.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bm.getHewan_penyerbuk());
+        System.out.println("Varietas          : " + bm.getVarietas());
         
         Bunga_Kemuning ip = new Bunga_Kemuning();
 
