@@ -68,6 +68,7 @@ public class Main {
         fm.setIklim("Sub tropis");
         fm.setTanah("Tanah yang berdrainase baik, kaya nutrisi");
         fm.setHewan_penyerbuk("Lebah");
+        fm.setArah_bunga(("Bunga Matahari mengikuti arah matahari dari timur ke barat sepanjang hari"));
 
         System.out.println("\n\t\t\tBunga Matahari");
         System.out.println("Nama Ilmiah       : " + fm.getnama_ilmiah());
@@ -75,6 +76,8 @@ public class Main {
         System.out.println("Iklim             : " + fm.getIklim());
         System.out.println("Tanah             : " + fm.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fm.getHewan_penyerbuk());
+        System.out.println("Arah Bunga        : " + fm.getArah_bunga()
+        );
         
         Bunga_Mawar bm = new Bunga_Mawar();
 
