@@ -53,13 +53,15 @@ public class Main {
         bt.setIklim("sedang");
         bt.setTanah("Berdrainase baik dan subur");
         bt.setHewan_penyerbuk("Lebah");
+        bt.setPenggunaan_Ornamental("Tulip banyak digunakan dalam desain lansekap dan taman");
 
         System.out.println("\n\t\t\tBunga Tulip");
-        System.out.println("Nama Ilmiah       : " + bt.getnama_ilmiah());
-        System.out.println("Warna             : " + bt.getWarna());
-        System.out.println("Iklim             : " + bt.getIklim());
-        System.out.println("Tanah             : " + bt.getTanah());
-        System.out.println("Hewan Penyerbuk   : " + bt.getHewan_penyerbuk());
+        System.out.println("Nama Ilmiah           : " + bt.getnama_ilmiah());
+        System.out.println("Warna                 : " + bt.getWarna());
+        System.out.println("Iklim                 : " + bt.getIklim());
+        System.out.println("Tanah                 : " + bt.getTanah());
+        System.out.println("Hewan Penyerbuk       : " + bt.getHewan_penyerbuk());
+        System.out.println("Penggunaan Ornamental : " + bt.getPenggunaan_Ornamental());
         
         Bunga_Matahari fm = new Bunga_Matahari();
 
