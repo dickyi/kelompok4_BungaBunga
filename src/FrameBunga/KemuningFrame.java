@@ -6,17 +6,13 @@ package FrameBunga;
 
 import Bunga.Bunga_Kemuning;
 
-/**
- *
- * @author Irawa
- */
+
 public class KemuningFrame extends javax.swing.JFrame {
 
-    /**
-     * Creates new form KemuningFrame
-     */
+
     public KemuningFrame() {
         initComponents();
+        reset();
     }
 
     void reset() {
@@ -26,12 +22,14 @@ public class KemuningFrame extends javax.swing.JFrame {
         jtanah.setText("");
         jiklim.setText("");
         jhewan.setText("");
+        jmanfaat.setText("");
 
         vnama.setText("");
         vwarna.setText("");
         vtanah.setText("");
         viklim.setText("");
         vhewan.setText("");
+        vmanfaat.setText("");
 
     }
 
@@ -59,6 +57,9 @@ public class KemuningFrame extends javax.swing.JFrame {
         vtanah = new javax.swing.JLabel();
         vhewan = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        jmanfaat = new javax.swing.JTextField();
+        vmanfaat = new javax.swing.JLabel();
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -100,6 +101,8 @@ public class KemuningFrame extends javax.swing.JFrame {
             }
         });
 
+        jLabel8.setText("Manfaat Medis");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -136,22 +139,26 @@ public class KemuningFrame extends javax.swing.JFrame {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel7)
-                                            .addComponent(jLabel6))
+                                            .addComponent(jLabel6)
+                                            .addComponent(jLabel8))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jhewan, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jhewan, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jmanfaat, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                         .addGap(47, 47, 47)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(vwarna, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(vnama, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addContainerGap(108, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(viklim, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(vhewan, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(vtanah, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addGap(135, 135, 135))))))
+                                .addGap(135, 135, 135))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(vwarna, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(vnama, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(vmanfaat, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addContainerGap(108, Short.MAX_VALUE))))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -183,16 +190,24 @@ public class KemuningFrame extends javax.swing.JFrame {
                         .addComponent(jLabel6)
                         .addComponent(jtanah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(21, 21, 21)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel7)
-                        .addComponent(jhewan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(vhewan, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel7)
+                            .addComponent(jhewan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel8)
+                            .addComponent(jmanfaat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(vhewan, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(vmanfaat, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGap(32, 32, 32)
                 .addComponent(bcetak)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(breset)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addContainerGap())
         );
@@ -208,13 +223,15 @@ public class KemuningFrame extends javax.swing.JFrame {
         ip.setIklim(jiklim.getText());
         ip.setTanah(jtanah.getText());
         ip.setHewan_penyerbuk(jhewan.getText());
+        ip.setManfaat_Medis(jmanfaat.getText());
         
    
-        vnama.setText("Nama Ilmiah   : " + ip.getnama_ilmiah());
-        vwarna.setText("Warna        : " + ip.getWarna());
-        viklim.setText("Iklim        : " + ip.getIklim());
-        vtanah.setText("Tanah        : " + ip.getTanah());
-        vhewan.setText("Hewan        : " + ip.getHewan_penyerbuk());
+        vnama.setText("Nama Ilmiah        : " + ip.getnama_ilmiah());
+        vwarna.setText("Warna             : " + ip.getWarna());
+        viklim.setText("Iklim             : " + ip.getIklim());
+        vtanah.setText("Tanah             : " + ip.getTanah());
+        vhewan.setText("Hewan             : " + ip.getHewan_penyerbuk());
+        vmanfaat.setText("Manfaat Medis   : " + ip.getManfaat_Medis());
     }//GEN-LAST:event_bcetakActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
@@ -273,13 +290,16 @@ public class KemuningFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField jhewan;
     private javax.swing.JTextField jiklim;
+    private javax.swing.JTextField jmanfaat;
     private javax.swing.JTextField jnama;
     private javax.swing.JTextField jtanah;
     private javax.swing.JTextField jwarna;
     private javax.swing.JLabel vhewan;
     private javax.swing.JLabel viklim;
+    private javax.swing.JLabel vmanfaat;
     private javax.swing.JLabel vnama;
     private javax.swing.JLabel vtanah;
     private javax.swing.JLabel vwarna;

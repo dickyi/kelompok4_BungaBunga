@@ -105,6 +105,7 @@ public class Main {
         ip.setIklim("Tropis");
         ip.setTanah("Tanah yang berdrainase baik dan subur");
         ip.setHewan_penyerbuk("Lebah");
+        ip.setManfaat_Medis("Ekstrak dari bunga ini digunakan untuk meredakan stres dan sebagai antidepresan alami karena efek menenangkannya");
 
         System.out.println("\n\t\t\tBunga Kemuning");
         System.out.println("Nama Ilmiah       : " + ip.getnama_ilmiah());
@@ -112,6 +113,7 @@ public class Main {
         System.out.println("Iklim             : " + ip.getIklim());
         System.out.println("Tanah             : " + ip.getTanah());
         System.out.println("Hewan Penyerbuk   : " + ip.getHewan_penyerbuk());
+        System.out.println("Manfaat Medis     : " + ip.getManfaat_Medis());
         
         Bunga_Sakura bs = new Bunga_Sakura();
 

@@ -4,13 +4,17 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
-public class Bunga_Kemuning {
+public class Bunga_Kemuning extends Bunga{
   
     //manfaat_medis
-    
+    String Manfaat_Medis;
+
+    public String getManfaat_Medis() {
+        return Manfaat_Medis;
+    }
+
+    public void setManfaat_Medis(String Manfaat_Medis) {
+        this.Manfaat_Medis = Manfaat_Medis;
+    }
 
 }
