@@ -4,13 +4,19 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
-public class Bunga_Mawar {
+
+public class Bunga_Mawar extends Bunga{
     
     //varietas, simbolisme;
+    String varietas;
+
+    public String getVarietas() {
+        return varietas;
+    }
+
+    public void setVarietas(String varietas) {
+        this.varietas = varietas;
+    }
    
 
 }
