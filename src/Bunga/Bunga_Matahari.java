@@ -4,13 +4,17 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
-public class Bunga_Matahari {
+public class Bunga_Matahari extends Bunga{
    
     //Arah Bunga:
-   
+   String arah_bunga;
+
+    public String getArah_bunga() {
+        return arah_bunga;
+    }
+
+    public void setArah_bunga(String arah_bunga) {
+        this.arah_bunga = arah_bunga;
+    }
 
 }
