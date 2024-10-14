@@ -113,6 +113,7 @@ public class Main {
         bs.setIklim("Sedang");
         bs.setTanah("Tanah yang berdrainase baik dan subur");
         bs.setHewan_penyerbuk("Lebah dan serangga kecil lainnya");
+        bs.setPeriodeberbunga("Memiliki periode berbunga yang sangat singkat, biasanya antara akhir Maret hingga awal April");
 
         System.out.println("\n\t\t\tBunga Sakura");
         System.out.println("Nama Ilmiah       : " + bs.getnama_ilmiah());
@@ -120,6 +121,7 @@ public class Main {
         System.out.println("Iklim             : " + bs.getIklim());
         System.out.println("Tanah             : " + bs.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bs.getHewan_penyerbuk());
+        System.out.println("periodeberbunga   : " + bs.getPeriodeberbunga());
         
         Bunga_Melati bw = new Bunga_Melati();
 
