@@ -4,13 +4,17 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
-public class Bunga_Sakura {
+public class Bunga_Sakura extends Bunga{
    
     //periode_berbunga  
-  
+  String periodeberbunga;
+
+    public String getPeriodeberbunga() {
+        return periodeberbunga;
+    }
+
+    public void setPeriodeberbunga(String periodeberbunga) {
+        this.periodeberbunga = periodeberbunga;
+    }
 
 }
