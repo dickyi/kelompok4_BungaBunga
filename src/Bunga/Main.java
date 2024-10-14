@@ -139,6 +139,7 @@ public class Main {
         bw.setIklim("Tropis");
         bw.setTanah("Tanah yang berdrainase baik dan subur");
         bw.setHewan_penyerbuk("Lebah dan Kupu-kupu");
+        bw.setAroma("aromanya sering digunakan sebagai parfum");
 
         System.out.println("\n\t\t\tBunga Melati");
         System.out.println("Nama Ilmiah       : " + bw.getnama_ilmiah());
@@ -146,6 +147,7 @@ public class Main {
         System.out.println("Iklim             : " + bw.getIklim());
         System.out.println("Tanah             : " + bw.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bw.getHewan_penyerbuk());
+        System.out.println("Aroma             : " + bw.getAroma());
     }
 
 }

@@ -4,13 +4,17 @@
  */
 package Bunga;
 
-/**
- *
- * @author Irawa
- */
-public class Bunga_Melati {
+public class Bunga_Melati extends Bunga{
    
     //aroma, penggunaan_tradisional;
-  
+  String aroma;
+
+    public String getAroma() {
+        return aroma;
+    }
+
+    public void setAroma(String aroma) {
+        this.aroma = aroma;
+    }
 
 }
