@@ -4,10 +4,6 @@
  */
 package Bunga;
 
-/**
- *
- * 
- */
 public class Bunga_Melati extends Bunga{
    
     //aroma, penggunaan_tradisional;
